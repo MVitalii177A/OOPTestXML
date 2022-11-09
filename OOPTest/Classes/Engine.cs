@@ -4,7 +4,7 @@ namespace OOPTest.Classes
 {
     public sealed class Engine
     {
-        public string EngineTypeEnum EngineType { get; set; }
+        public EngineTypeEnum EngineType { get; set; }
 
         public string SerialNumber { get; set; }
 
@@ -14,7 +14,7 @@ namespace OOPTest.Classes
 
         public string GetInfo()
         {
-        return string.Format("SerialNumber={0}, EngineType={1}, Volume={2}, Power={3}" SerialNumber, EngineType.ToString(), Volume, Power);
+        return string.Format("SerialNumber={0}, EngineType={1}, Volume={2}, Power={3}", SerialNumber, EngineType.ToString(), Volume, Power);
         }
     }
 }

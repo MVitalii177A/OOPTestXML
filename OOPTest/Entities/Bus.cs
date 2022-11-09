@@ -4,7 +4,7 @@ using OOPTest.Interfaces;
 
 namespace OOPTest.Entities
 {
-    public class Bus : Vehicle
+    public class Bus : Vehicle, IShowInfo
     {
         public int PassengerSeatCount { get; set; }
 

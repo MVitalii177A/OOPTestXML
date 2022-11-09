@@ -6,11 +6,11 @@
 
         public Chassis Chassis { get; set; }
 
-        public Transmission Transmisssion { get; set; }
+        public Transmission Transmission { get; set; }
 
         public string ShowCommonInfo()
         {
-            return string.Concat("Engine", Engine.GetInfo(), "Chassis", Chassis.GetInfo(), "Transmission", Transmission.GetInfo();
+            return string.Concat("Engine", Engine.GetInfo(), "Chassis", Chassis.GetInfo(), "Transmission", Transmission.GetInfo());
         }
 
     }

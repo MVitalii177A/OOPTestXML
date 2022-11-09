@@ -1,10 +1,9 @@
 ﻿using OOPTest.Classes;
-using OOPTest.Enums;
 using OOPTest.Interfaces;
 
 namespace OOPTest.Entities
 {
-    public class Scooter : Vehicle
+    public class Scooter : Vehicle, IShowInfo
     {
         public decimal MaxSpeed { get; set; }
 

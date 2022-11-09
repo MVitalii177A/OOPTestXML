@@ -1,0 +1,5 @@
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.csproj.AssemblyReference.cache
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.AssemblyInfoInputs.cache
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.AssemblyInfo.cs
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.csproj.CoreCompileInputs.cache
