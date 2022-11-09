@@ -9,7 +9,7 @@ namespace OOPTest.Entities
 
         public string ShowInfo()
         {
-            return string.Concat(ShowCommonInfo(), "CargoType={0}", CargoType.ToString());
+            return string.Concat(ShowCommonInfo(), "CargoType=", CargoType.ToString());
         }
     }
 }
