@@ -1,5 +1,6 @@
 ﻿using OOPTest.Classes;
 using OOPTest.Enums;
+using OOPTest.Interfaces;
 
 namespace OOPTest.Entities
 {
