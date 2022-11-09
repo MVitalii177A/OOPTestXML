@@ -2,7 +2,8 @@
 
 namespace OOPTest.Entities
 {
-    public enum PassengerCar
+    public class PassengerCar :Vehicle
     {
+
     }
 }
