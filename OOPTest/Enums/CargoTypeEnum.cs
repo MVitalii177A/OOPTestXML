@@ -2,8 +2,8 @@
 {
     public enum CargoTypeEnum
     {
-        Wagon,
         Platform,
+        Wagon,
         Tipper
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace OOPTest.Classes
+﻿using OOPTest.Enums;
+
+namespace OOPTest.Classes
 {
     public abstract class Vehicle
     {
@@ -10,7 +12,7 @@
 
         public string ShowCommonInfo()
         {
-            return string.Concat("Engine", Engine.GetInfo(), "Chassis", Chassis.GetInfo(), "Transmission", Transmission.GetInfo());
+            return string.Concat("------------\nEngine", Engine.GetInfo(), "\nChassis", Chassis.GetInfo(), "\nTransmission", Transmission.GetInfo());
         }
 
     }

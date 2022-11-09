@@ -12,7 +12,7 @@ namespace OOPTest.Classes
 
         public string GetInfo()
         {
-            return string.Format("TransmissionType={0}, GearsCount={1}, Manufacturer={2}", TransmissionType.ToString(), GearsCount, Manufacturer);
+            return string.Format("\n\tTransmissionType={0}, \n\tGearsCount={1}, \n\tManufacturer={2}", TransmissionType.ToString(), GearsCount, Manufacturer);
         }
     }
 }

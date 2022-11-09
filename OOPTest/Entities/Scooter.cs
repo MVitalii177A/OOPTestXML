@@ -9,7 +9,7 @@ namespace OOPTest.Entities
 
         public string ShowInfo()
         {
-            return string.Concat(ShowCommonInfo(), string.Format("MaxSpeed={0}", MaxSpeed));
+            return string.Concat(ShowCommonInfo(), string.Format("\n\tMaxSpeed={0}", MaxSpeed));
         }
     }
 }

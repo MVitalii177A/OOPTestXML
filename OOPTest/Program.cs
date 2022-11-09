@@ -26,7 +26,8 @@ namespace OOPTest
             vehicles.ForEach(v =>
             {
                 Console.WriteLine(v.GetType().Name);
-                Console.WriteLine(((IShowInfo)v).IShowInfo());
+                Console.WriteLine(((IShowInfo)v).ShowInfo());
+                Console.WriteLine("\n");
             });
 
             Console.ReadLine();
@@ -89,7 +90,7 @@ namespace OOPTest
                         GearsCount = 6,
                         TransmissionType = TransmissionTypeEnum.Automatic,
                         Manufacturer = "Ford"
-                    }
+                    },
                 },
             };
         }
@@ -120,7 +121,7 @@ namespace OOPTest
                         GearsCount = 6,
                         TransmissionType = TransmissionTypeEnum.Manual,
                         Manufacturer = "GM"
-                    }
+                    },
                 },
             };
         }
@@ -151,7 +152,7 @@ namespace OOPTest
                         GearsCount = 5,
                         Manufacturer = "Jatco",
                         TransmissionType = TransmissionTypeEnum.Automatic
-                    }
+                    },
                 },
             };
         }

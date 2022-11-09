@@ -1,6 +1,6 @@
 ﻿using OOPTest.Classes;
-using OOPTest.Enums;
 using OOPTest.Interfaces;
+using OOPTest.Enums;
 
 namespace OOPTest.Entities
 {
@@ -12,7 +12,7 @@ namespace OOPTest.Entities
 
         public string ShowInfo()
         {
-            return string.Concat(ShowCommonInfo(), string.Format("PassengerSeatCount={0}, PassengerStandCount={1}", PassengerSeatCount, PassengerStandCount));
+            return string.Concat(ShowCommonInfo(), string.Format("\n\tPassengerSeatCount={0}, \n\tPassengerStandCount={1}", PassengerSeatCount, PassengerStandCount));
         }
     }
 }

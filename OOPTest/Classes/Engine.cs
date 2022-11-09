@@ -14,7 +14,7 @@ namespace OOPTest.Classes
 
         public string GetInfo()
         {
-        return string.Format("SerialNumber={0}, EngineType={1}, Volume={2}, Power={3}", SerialNumber, EngineType.ToString(), Volume, Power);
+            return string.Format("\n\tSerialNumber={0}, \n\tEngineType={1}, \n\tVolume={2}, \n\tPower={3}", SerialNumber, EngineType.ToString(), Volume, Power);
         }
     }
 }

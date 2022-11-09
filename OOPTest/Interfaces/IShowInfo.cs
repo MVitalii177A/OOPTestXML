@@ -2,6 +2,6 @@
 {
     public interface IShowInfo
     {
-        string IShowInfo();
+        string ShowInfo();
     }
 }

@@ -12,7 +12,7 @@ namespace OOPTest.Classes
 
         public string GetInfo()
         {
-            return string.Format("SerialNumber={0}, WheelsCount={1}, WeightLoad={2}", SerialNumber, WheelsCount, WeightLoad);
+            return string.Format("\n\tSerialNumber={0}, \n\tWheelsCount={1}, \n\tWeightLoad={2}", SerialNumber, WheelsCount, WeightLoad);
         }
     }
 }

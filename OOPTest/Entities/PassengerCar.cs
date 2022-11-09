@@ -4,13 +4,13 @@ using OOPTest.Interfaces;
 
 namespace OOPTest.Entities
 {
-    public class PassengerCar : Vehicle
+    public class PassengerCar : Vehicle, IShowInfo
     {
         public DriveUnitEnum DriveUnit { get; set; }
 
         public string ShowInfo()
         {
-            return string.Concat(ShowCommonInfo(), "DriveUnit=", DriveUnit.ToString());
+            return string.Concat(ShowCommonInfo(), "\nDriveUnit", "\n\tDriveUnit={0}", DriveUnit.ToString());
         }
     }
 }

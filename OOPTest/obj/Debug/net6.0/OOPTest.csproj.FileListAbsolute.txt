@@ -3,3 +3,13 @@ C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.GeneratedMSBuildEditor
 C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.AssemblyInfoInputs.cache
 C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.AssemblyInfo.cs
 C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.csproj.CoreCompileInputs.cache
+C:\Data\GitRepos\OOPTest\OOPTest\bin\Debug\net6.0\OOPTest.exe
+C:\Data\GitRepos\OOPTest\OOPTest\bin\Debug\net6.0\OOPTest.deps.json
+C:\Data\GitRepos\OOPTest\OOPTest\bin\Debug\net6.0\OOPTest.runtimeconfig.json
+C:\Data\GitRepos\OOPTest\OOPTest\bin\Debug\net6.0\OOPTest.dll
+C:\Data\GitRepos\OOPTest\OOPTest\bin\Debug\net6.0\OOPTest.pdb
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.dll
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\refint\OOPTest.dll
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.pdb
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\OOPTest.genruntimeconfig.cache
+C:\Data\GitRepos\OOPTest\OOPTest\obj\Debug\net6.0\ref\OOPTest.dll
