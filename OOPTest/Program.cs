@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using OOPTest.Classes;
 using OOPTest.Entities;
@@ -91,6 +87,9 @@ namespace OOPTest
                         TransmissionType = TransmissionTypeEnum.Automatic,
                         Manufacturer = "Ford"
                     },
+
+                    PassengerSeatCount = 15,
+                    PassengerStandCount = 25
                 },
             };
         }
@@ -122,7 +121,9 @@ namespace OOPTest
                         TransmissionType = TransmissionTypeEnum.Manual,
                         Manufacturer = "GM"
                     },
-                },
+
+                    CargoType = CargoTypeEnum.Tipper
+                }
             };
         }
 
@@ -153,6 +154,10 @@ namespace OOPTest
                         Manufacturer = "Jatco",
                         TransmissionType = TransmissionTypeEnum.Automatic
                     },
+
+                    DriveUnit = DriveUnitEnum.RearWheelDrive
+
+                    
                 },
             };
         }

@@ -12,7 +12,7 @@ namespace OOPTest.Entities
 
         public string ShowInfo()
         {
-            return string.Concat(ShowCommonInfo(), string.Format("\n\tPassengerSeatCount={0}, \n\tPassengerStandCount={1}", PassengerSeatCount, PassengerStandCount));
+            return string.Concat(ShowCommonInfo(), string.Format("\nSeatCount \n\tPassengerSeatCount={0}, \n\tPassengerStandCount={1}", PassengerSeatCount, PassengerStandCount));
         }
     }
 }
