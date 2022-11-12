@@ -55,7 +55,9 @@ namespace OOPTest
                         GearsCount = 0,
                         TransmissionType = TransmissionTypeEnum.CVT,
                         Manufacturer = "Jatco"
-                    }
+                    },
+
+                    MaxSpeed = 100,
                 },
             };
         }
