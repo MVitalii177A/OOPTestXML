@@ -2,6 +2,7 @@
 {
     public enum EngineTypeEnum
     {
+        NotSet,
         Petrol,
         Diesel,
         Electric

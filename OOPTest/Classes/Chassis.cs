@@ -1,13 +1,18 @@
 ﻿using OOPTest.Enums;
+using System.Xml.Serialization;
 
 namespace OOPTest.Classes
 {
+    [Serializable]
     public sealed class Chassis
     {
+        [XmlAttribute]
         public string SerialNumber { get; set; }
 
+        [XmlAttribute]
         public int WheelsCount { get; set; }
 
+        [XmlAttribute]
         public decimal WeightLoad { get; set; }
 
         public string GetInfo()

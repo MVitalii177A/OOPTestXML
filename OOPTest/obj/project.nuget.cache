@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IkiEi12UZymHBNYAtpygdYWusUjmZaFGKulWi9kkiEW42OOyhsoQYWRTyyfzzNj5nsv2ZSG6A70QpliJ09L5zA==",
+  "dgSpecHash": "dBiYh5snwADrbqO0WKPokMD9QtRFPtCAdFYi0M5aL3rkxMIMMiQUKIpt3rEh29Tbi3Iae+Fhs8Er5JUUP99G6Q==",
   "success": true,
-  "projectFilePath": "C:\\Data\\GitRepos\\OOPTest\\OOPTest\\OOPTest.csproj",
+  "projectFilePath": "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

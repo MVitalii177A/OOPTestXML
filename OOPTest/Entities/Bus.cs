@@ -4,8 +4,10 @@ using OOPTest.Enums;
 
 namespace OOPTest.Entities
 {
+    [Serializable]
     public class Bus : Vehicle, IShowInfo
     {
+
         public int PassengerSeatCount { get; set; }
 
         public int PassengerStandCount { get; set; }

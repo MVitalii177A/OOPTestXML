@@ -3,6 +3,7 @@ using OOPTest.Interfaces;
 
 namespace OOPTest.Entities
 {
+    [Serializable]
     public class Scooter : Vehicle, IShowInfo
     {
         public decimal MaxSpeed { get; set; }

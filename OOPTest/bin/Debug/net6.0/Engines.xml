@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engines>
+  <engine EngineType="Petrol" SerialNumber="MAN12345" Power="425" />
+  <engine EngineType="Diesel" SerialNumber="MAN123452" Power="320" />
+  <engine EngineType="Electric" SerialNumber="EL012345" Power="350" />
+  <engine EngineType="Petrol" SerialNumber="D12345" Power="200" />
+  <engine EngineType="Diesel" SerialNumber="D123451" Power="150" />
+  <engine EngineType="Electric" SerialNumber="EL123451" Power="120" />
+</engines>

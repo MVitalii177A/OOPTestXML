@@ -2,6 +2,7 @@
 {
     public enum DriveUnitEnum
     {
+        NotSet,
         FrontWheelDrive,
         RearWheelDrive,
         AllWheelDrive

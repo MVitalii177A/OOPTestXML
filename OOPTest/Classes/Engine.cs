@@ -1,15 +1,21 @@
 ﻿using OOPTest.Enums;
+using System.Xml.Serialization;
 
 namespace OOPTest.Classes
 {
+    [Serializable]
     public sealed class Engine
     {
+        [XmlElement]
         public EngineTypeEnum EngineType { get; set; }
 
+        [XmlAttribute]
         public string SerialNumber { get; set; }
-
+        
+        [XmlAttribute]
         public decimal Volume { get; set; }
 
+        [XmlAttribute]
         public decimal Power { get; set; }
 
         public string GetInfo()

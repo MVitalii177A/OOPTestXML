@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+  <vehicle ClassName="OOPTest.Entities.PassengerCar" DriveUnit="FrontWheelDrive">
+    <Engine EngineType="Petrol" SerialNumber="DP12345" Volume="1.7" Power="180" />
+    <Chassis SerialNumber="FB12345" WheelsCount="4" WeightLoad="1100" />
+    <Transmission TransmissionType="CVT" GearsCount="5" Manufacturer="Jatco" />
+  </vehicle>
+  <vehicle ClassName="OOPTest.Entities.Cargo" CargoType="Tipper">
+    <Engine EngineType="Petrol" SerialNumber="MAN12345" Volume="6" Power="425" />
+    <Chassis SerialNumber="CH12345" WheelsCount="8" WeightLoad="12000" />
+    <Transmission TransmissionType="Manual" GearsCount="6" Manufacturer="GM" />
+  </vehicle>
+  <vehicle ClassName="OOPTest.Entities.Cargo" CargoType="Platform">
+    <Engine EngineType="Diesel" SerialNumber="MAN123452" Volume="4" Power="320" />
+    <Chassis SerialNumber="CH12345" WheelsCount="6" WeightLoad="10000" />
+    <Transmission TransmissionType="Automatic" GearsCount="8" Manufacturer="GM" />
+  </vehicle>
+  <vehicle ClassName="OOPTest.Entities.Bus" PassengerSeatCount="15" PassengerStandCount="25">
+    <Engine EngineType="Petrol" SerialNumber="D12345" Volume="3" Power="200" />
+    <Chassis SerialNumber="B12345" WheelsCount="6" WeightLoad="5000" />
+    <Transmission TransmissionType="Automatic" GearsCount="6" Manufacturer="Ford" />
+  </vehicle>
+  <vehicle ClassName="OOPTest.Entities.Bus" PassengerSeatCount="10" PassengerStandCount="15">
+    <Engine EngineType="Diesel" SerialNumber="D123451" Volume="1.6" Power="150" />
+    <Chassis SerialNumber="B123451" WheelsCount="4" WeightLoad="3000" />
+    <Transmission TransmissionType="Manual" GearsCount="6" Manufacturer="ANKAI" />
+  </vehicle>
+  <vehicle ClassName="OOPTest.Entities.Bike" Error="Can't Serialize Attribute">
+    <Engine EngineType="NotSet" SerialNumber="null" Volume="2" Power="0" />
+    <Chassis />
+    <Transmission />
+  </vehicle>
+</vehicles>

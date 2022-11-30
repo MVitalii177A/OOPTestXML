@@ -4,6 +4,7 @@ using OOPTest.Interfaces;
 
 namespace OOPTest.Entities
 {
+    [Serializable]
     public class Cargo : Vehicle, IShowInfo
     {
         public CargoTypeEnum CargoType { get; set; }

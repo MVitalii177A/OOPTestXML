@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTest.csproj": {}
+    "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTestXml.csproj": {}
   },
   "projects": {
-    "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTest.csproj": {
+    "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTestXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTest.csproj",
-        "projectName": "OOPTest",
-        "projectPath": "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTest.csproj",
+        "projectUniqueName": "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTestXml.csproj",
+        "projectName": "OOPTestXml",
+        "projectPath": "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\OOPTestXml.csproj",
         "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
         "outputPath": "C:\\Data\\GitRepos\\OOPTestXml\\OOPTest\\obj\\",
         "projectStyle": "PackageReference",

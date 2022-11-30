@@ -2,6 +2,7 @@
 {
     public enum TransmissionTypeEnum
     {
+        NotSet,
         Manual,
         Automatic,
         DCT, //Робот

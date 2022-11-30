@@ -2,6 +2,7 @@
 {
     public enum CargoTypeEnum
     {
+        NotSet,
         Platform,
         Wagon,
         Tipper
